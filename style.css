@@ -16,13 +16,11 @@
 .eisenhower-matrix .more-inf {
 	font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
-	
 	.eisenhower-matrix { 
 		text-align: center;
 	}
-	
+
 }
 .task-app {
 	display: block;
@@ -38,14 +36,14 @@
 	display: flex;
 }
 ul {
-	margin:0;
+	margin: 0;
 	padding: 0px;
 }
 li, h3 {
-	list-style:none;
+	list-style: none;
 }
 input,button{
-	outline:none;
+	outline: none;
 }
 .btn {
 	background: none;
@@ -84,7 +82,6 @@ input,button{
 .input:focus {
 	color: #333;
 }
-
 /* New Task */
 .new-task-title {
 	display: block;
@@ -96,7 +93,6 @@ input,button{
 #add-element > .btn:hover {
 	color: #0fc57c;
 }
-
 /* Task list */
 .tasks-item {
 	overflow: hidden;
@@ -109,7 +105,6 @@ input,button{
 .tasks-item > * {
 	vertical-align: middle;
 }
-
 .tasks-item > .checkbox {
 	margin: 0 10px;
 }
@@ -133,7 +128,6 @@ input,button{
 .delete .delete-img:hover {
 	transform: rotateZ(0);
 }
-
 /* Completed */
 #completed-tasks .label {
 	text-decoration: line-through
@@ -142,14 +136,14 @@ input,button{
 
 /* Edit Task */
 .tasks-item .input {
-	display:none
+	display: none
 }
 
 .edit-mode .input {
-	display:inline-block;
-	width:224px
+	display: inline-block;
+	width: 224px
 }
 
 .edit-mode .label {
-	display:none;
+	display: none;
 }
