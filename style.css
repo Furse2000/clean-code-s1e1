@@ -122,7 +122,7 @@ figure{
 	font-size: 18px;
 	width: 226px;
 }
-.tasks-block__item >    .task__input {
+.tasks-block__item > .task__input {
 	width: 226px;
 }
 .tasks-block__item > .task__btn_delete:hover {
