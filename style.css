@@ -3,7 +3,10 @@
 	background-color: #f8f8f8;
 	color: #333;
 	font-family: Lato, sans-serif;
-	@@ -10,7 +10,7 @@ body {
+}
+.eisenhower-matrix {
+	width: 500px;
+	margin: 0 auto;
 	display: block;
 	text-align: right;
 }
@@ -11,7 +14,32 @@
 	width: 100%;
 }
 .eisenhower-matrix .more-inf {
-	@@ -44,7 +44,7 @@ li, h3 {
+	font-family: fantasy, cursive;
+}
+@media (max-width:768px) {
+.eisenhower-matrix { text-align: center;
+}
+}
+.task-app {
+	display: block;
+	width: 500px;
+	margin: 0 auto 0;
+}
+.task {
+	width: 56%;
+	display: inline-block;
+	flex-grow: 1
+}
+.task-row-wrapper {
+	display: flex;
+}
+ul {
+	margin:0;
+	padding: 0px;
+}
+li, h3 {
+	list-style:none;
+}
 input,button{
 	outline:none;
 }
@@ -19,7 +47,8 @@ input,button{
 	background: none;
 	border: 0px;
 	color: #888;
-	@@ -53,12 +53,11 @@ button {
+	font-size: 15px;
+	width: 60px;
 	font-family: Lato, sans-serif;
 	cursor: pointer;
 }
@@ -31,7 +60,8 @@ input,button{
 	color: #333;
 	font-weight: 700;
 	font-size: 15px;
-	@@ -67,7 +66,7 @@ label[for="new-task"] {
+	border-bottom: 2px solid #333;
+	padding: 30px 0 10px;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -39,7 +69,11 @@ input,button{
 	margin: 0;
 	font-size: 18px;
 	line-height: 18px;
-	@@ -79,24 +78,24 @@ input[type="text"] {
+	height: 21px;
+	padding: 0 9px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
 	font-family: Lato, sans-serif;
 	color: #888;
 }
@@ -64,7 +98,7 @@ input,button{
 	overflow: hidden;
 	padding: 20px 0;
 	border-bottom: 1px solid #eee;
-	@@ -105,50 +104,50 @@ li {
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
